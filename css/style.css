@@ -7,7 +7,7 @@ body {
 header {
     overflow: hidden;
     padding: 10px;
-    #border-style: solid;
+    border-style: solid;
 }
 
 div.logo {
@@ -15,6 +15,7 @@ div.logo {
     height: 75px;
     display: inline-block;
     position: static;
+    display: inline-block;
     #border-style: solid;
 }
 
@@ -102,6 +103,29 @@ div.login {
     outline: none;
     color: #fff;
     background-color: red;
+}
+
+@media screen and (max-width: 600px) {
+    .header {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .login {
+        width: 100%;
+        margin-right: 20%;
+        order: 1;
+    }
+    .logo {
+        width: 100%;
+        margin-right: 20%;
+        order: 2;
+    }
+    .menu {
+        width: 100%;
+        margin-right: 20%;
+        order: 3;
+    }
 }
 
 footer {
