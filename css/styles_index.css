@@ -1,0 +1,86 @@
+body {
+    background-color: #e8e8e8;
+    color: #1c1c1c;
+}
+
+.index div {
+    align-items: center;
+    overflow: hidden;
+    padding: 10px;
+    text-align: center;
+}
+
+.index h2 {
+    font-size: 50px;
+}
+
+.index h3 {
+    font-size: 25px;
+}
+
+.index p {
+    font-size: 25px;
+}
+
+.index img {
+    padding: 10px;
+    width: 200px;
+}
+
+.index ul li {
+    display: inline-block;
+    margin: 0 3%;
+}
+
+div.clubInfo {
+    width: 35%;
+    height: 50%;
+    display: inline-block;
+    text-align: left;
+    vertical-align: top;
+    #border-style: solid;
+}
+
+.clubInfo p {
+    font-size: 35px;
+}
+
+div.clubForm {
+    width: 45%;
+    height: 50%;
+    display:inline-block;
+    #border-style: solid;
+}
+
+.clubForm input, select, textarea, label {
+    font-family: inherit;
+    font-size: 100%;
+    box-sizing: border-box;
+    padding: 5px; margin-right: 250px;
+}
+
+.clubForm input[type="submit"] {
+    background-color: #A01127;
+    padding: 10px 25px;
+    border-radius: 15px;
+    color: white;
+    border: 0;
+    margin-top: 15px;
+}
+
+.clubForm textarea {
+    overflow: auto;
+}
+
+.clubForm fieldset {
+    margin-top: 80px;
+}
+
+#formText {
+    margin: 0 30%;
+}
+
+#formText p {
+    font-size: 10px;
+    text-align: left;
+}
