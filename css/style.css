@@ -37,6 +37,7 @@ div.menu {
     vertical-align: middle;
     justify-content: center;
     align-items: center;
+    font-weight: bold;
 }
 
 .menu ul {
