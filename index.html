@@ -26,12 +26,12 @@
             <button type="button">Iniciar sesión</button>
         </div>
     </header>
-    <main>
+    <main class="index">
         <div>
             <h2>¿Qué es Oscars Club?</h2>
             <p>
-                Oscars Club organiza clubes virtuales de cine de diversos géneros y en diferentes lenguas, para los amantes del cine que
-                quieran compartir reflexiones y debatir sobre las películas que les interesan sin necesidad de tener que ir a un espacio
+                Oscars Club organiza clubes virtuales de cine de diversos géneros y en diferentes lenguas,<br> para los amantes del cine que
+                quieran compartir reflexiones y debatir sobre las películas<br> que les interesan sin necesidad de tener que ir a un espacio
                 físico.
             </p>
         </div>
@@ -40,57 +40,93 @@
             <ul>
                 <li>
                     <img alt="" src="img/howto-register.png">
+                    <br>
                     <span><i>Regístrate</i></span>
                 <li>
                     <img alt="" src="img/howto-club.png">
+                    <br>
                     <span><i>Inscríbete en un club</i></span>
                 </li>
                 <li>
                     <img alt="" src="img/howto-film.png">
+                    <br>
                     <span><i>Elige una película</i></span>
                 </li>
                 <li>
                     <img alt="" src="img/howto-speech.png">
+                    <br>
                     <span><i>Disfruta del debate</i></span>
                 </li>
             </ul>
         </div>
         <div>
             <h2>Únete al club</h2>
-            <div>
+            <div class="clubInfo">
                 <p>
                     Estamos mirando tu próxima película preferida.
                 </p>
                 <h3>¿Te lo vas a perder?</h3>
             </div>
-            <div>
+            <div class="clubForm">
                 <form>
-                    <p>
-                        <label><input type="text" name="name" value="Nombre"></label>
-                    </p>
-                    <p>
-                        <label><input type="text" name="email" value="Correo electrónico"></label>
-                    </p>
-                    <p>
-                        <label><input type="text" name="userpass" value="Contraseña"></label>
-                    </p>
-                    <p>
-                        NFORMACIÓN SOBRE PROTECCIÓN DE DATOS DE
-                        OSCARS CLUB. Finalidades: recogida de datos para la
-                        inscripción como socio del interesado.Legitimación:
-                        Consentimiento del interesado. Destinatarios: No están previstas
-                        cesiones de datos a terceros, salvo obligación legal. Derechos:
-                        Puede retirar su consentimiento en cualquier momento, así como
-                        acceder, rectificar, suprimir sus datos y otros derechos
-                        dirigiéndose a oscarsclub@oscarsclub.org. Información
-                        Adicional: Puede ampliar la información en el enlace deAviso
-                        Legal y Política de privacidad.
-                    </p>
+                    <div>
+                        <p>
+                            <label><input type="text" name="name" value="Nombre"></label>
+                        </p>
+                        <p>
+                            <label><input type="text" name="email" value="Correo electrónico"></label>
+                        </p>
+                        <p>
+                            <label><input type="text" name="userpass" value="Contraseña"></label>
+                        </p>
+                    </div>
+                    <div id="formText">
+                        <p>
+                            NFORMACIÓN SOBRE PROTECCIÓN DE DATOS DE
+                            OSCARS CLUB. Finalidades: recogida de datos para la
+                            inscripción como socio del interesado.Legitimación:
+                            Consentimiento del interesado. Destinatarios: No están previstas
+                            cesiones de datos a terceros, salvo obligación legal. Derechos:
+                            Puede retirar su consentimiento en cualquier momento, así como
+                            acceder, rectificar, suprimir sus datos y otros derechos
+                            dirigiéndose a oscarsclub@oscarsclub.org. Información
+                            Adicional: Puede ampliar la información en el enlace deAviso
+                            Legal y Política de privacidad.
+                            <br><label><input type="checkbox" id="confirm">He leído y acepto la política de privacidad. </label>
+                        </p>
+                    </div>
                     <input type="submit" value="Registrate">
                 </form>
             </div>
         </div>
-
     </main>
+    <footer>
+        <div class="menuFooter">
+            <nav class="footerHorizontal">
+                <ul>
+                    <li><a href="">Sobre nosotros</a></li>
+                    <li><a href="">Aviso legal</a></li>
+                    <li><a href="">Política de privacidad</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="social">
+            <nav class="footerHorizontal">
+                <ul>
+                    <li><a href="">Facebook</a></li>
+                    <li><a href="">Twitter</a></li>
+                    <li><a href="">Youtube</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="info">
+            <ul>
+                <li>© 2020 Nombre y apellidos del estudiante</li>
+                <li><a href="https://www.flaticon.com">Iconos flaticon.com</a></li>
+                <li><a href="https://unsplash.com">Imágenes unsplash.com</a></li>
+                <li><button type="button">&xwedge;</button></li>
+            </ul>
+        </div>
+    </footer>
 </body>
 </html>
