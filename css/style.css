@@ -7,7 +7,6 @@ body {
 header {
     overflow: hidden;
     padding: 10px;
-    border-style: solid;
 }
 
 div.logo {
@@ -15,8 +14,6 @@ div.logo {
     height: 75px;
     display: inline-block;
     position: static;
-    display: inline-block;
-    #border-style: solid;
 }
 
 .logo a:link, a:visited, a:hover, a:active {
@@ -30,7 +27,6 @@ div.logo {
 
 .logo img {
     vertical-align: top;
-    #border-style: solid;
 }
 
 div.menu {
@@ -39,7 +35,6 @@ div.menu {
     display: inline-block;
     position: static;
     vertical-align: middle;
-    #border-style: solid;
     justify-content: center;
     align-items: center;
 }
@@ -60,14 +55,17 @@ div.menu {
     margin: 0 10px;
 }
 
+.menu a {
+    position: static;
+    text-decoration: none;
+}
+
 .menu a a:visited{
     color: #1c1c1c;
-    text-decoration: none;
 }
 
 .menu a:hover {
     opacity: 0.5;
-    text-decoration: none;
     font-size: 18px;
 }
 
@@ -87,7 +85,6 @@ div.login {
     display: inline-block;
     position: static;
     vertical-align: middle;
-    #border-style: solid;
     justify-content: center;
     align-items: center;
     text-align: right;
