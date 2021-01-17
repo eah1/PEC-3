@@ -3,3 +3,106 @@ body {
     background-color: #e8e8e8;
     color: #1c1c1c;
 }
+
+.details h2 {
+    font-size: 25px;
+}
+
+.details h3 {
+    font-size: 25px;
+}
+
+.details a {
+    position: static;
+    text-decoration: none;
+
+}
+
+.details a a:visited{
+    color: #1c1c1c;
+}
+
+.details a:hover {
+    opacity: 0.5;
+    font-size: 18px;
+}
+
+.details a:active {
+    font-style: italic;
+    font-weight: 700;
+}
+
+.details a:link {
+    font-family: 'Ariadna script', arial, serif;
+    opacity: 0.5;
+}
+
+.details div {
+    overflow: hidden;
+    padding: 2px;
+}
+
+div.head {
+    position: static;
+    width: 80%;
+    margin: 0 auto;
+}
+
+div.dataSheet {
+    width: 45%;
+    display: inline-block;
+    position: static;
+    vertical-align: top;
+}
+
+.dataSheet h2 {
+    font-size: 25px;
+}
+
+.dataSheet ol ul li{
+    list-style-type: none;
+}
+
+li.headerDta {
+    font-weight: bold;
+    list-style-type: none;
+    border-bottom: 2px solid black;
+    padding: 2px;
+
+}
+
+div.contentData {
+    width: 45%;
+    display: inline-block;
+    position: static;
+    vertical-align: top;
+}
+
+.contentData h2 {
+    font-size: 25px;
+}
+
+#center {
+    font-size: 20px;
+    text-align: right;
+}
+
+#center img {
+    display: inline-block;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+#frame {
+    display: block;
+    width: 35vW;
+    height: 20vW;
+    margin: 0 auto;
+    border: 0;
+}
+
+.contentData p {
+    font-size: 20px;
+    text-align: justify;
+}
+
