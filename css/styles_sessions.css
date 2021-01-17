@@ -119,13 +119,19 @@ div.movieInfo {
 @media screen and (max-width: 600px) {
     .indexGeneral {
         width: 100%;
-        height: 1000%;display: block;
-        flex-wrap: wrap;
+        height: 1000%;
+        display: grid;
     }
     .movies {
         width: 100%;
         height: 100%;
-        display: inline-block;
+        display: grid;
+    }
+
+    .movies img {
+        width: 100%;
+        height: 100%;
+        display: grid;
     }
 
 }

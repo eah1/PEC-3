@@ -108,7 +108,7 @@ div.contentData {
 
 @media screen and (max-width: 600px) {
     .head {
-        display: inline-block;
+        display: grid;
         flex-wrap: wrap;
         width: 100%;
         height: 1000%;
