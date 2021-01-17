@@ -76,15 +76,6 @@ div.movies {
     position: static;
 }
 
-/*.movies li {*/
-/*    #width:100%;*/
-/*    display: inline-block;*/
-/*    margin: 0 auto;*/
-/*    text-align: left;*/
-/*    padding: 2%;*/
-/*    #margin: 0 -12%;*/
-/*}*/
-
 .movies li {
     display: inline-block;
     margin: 0 auto;
