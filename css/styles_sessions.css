@@ -115,3 +115,17 @@ div.movieInfo {
     vertical-align: bottom;
 
 }
+
+@media screen and (max-width: 600px) {
+    .indexGeneral {
+        width: 100%;
+        height: 1000%;display: block;
+        flex-wrap: wrap;
+    }
+    .movies {
+        width: 100%;
+        height: 100%;
+        display: inline-block;
+    }
+
+}
